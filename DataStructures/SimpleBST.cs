@@ -47,7 +47,7 @@ namespace DataStructures.BST
         public int key;
         public int val;
         public SimpleBSTNode left, right;
-        public int count;
+        public int count;  //count of nodes in subtree rooted at current node
 
         public SimpleBSTNode(int key, int val)
         {
