@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Algorithms
 {
-    public class Utils
+    public static class ArrayUtils
     {
         public static void Print(int[] a)
         {
@@ -15,6 +15,18 @@ namespace Algorithms
                 Console.Write(val+" ");
             }
             Console.WriteLine();
+        }
+
+        public static string ToString1(this int[] a)
+        {
+            StringBuilder s = new StringBuilder();
+
+            foreach (int val in a)
+            {
+                s.Append(val + " ");
+            }
+
+            return s.ToString();
         }
 
         public static void Swap(int[] a, int x, int y)
