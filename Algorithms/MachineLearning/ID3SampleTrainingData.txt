@@ -1,4 +1,0 @@
-﻿f1,f2,f3,label
-a,b,c,k
-d,e,f,h
-u,i,j,k
