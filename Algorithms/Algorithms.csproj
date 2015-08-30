@@ -45,20 +45,8 @@
   <ItemGroup>
     <Compile Include="ComputationalGeometry\ConvexHull.cs" />
     <Compile Include="MachineLearning\ID3.cs" />
-    <Compile Include="Selection\QuickSelection.cs" />
-    <Compile Include="Shuffling\Shuffler.cs" />
-    <Compile Include="Sorting\RadixSort.cs" />
-    <Compile Include="Sorting\BubbleSort.cs" />
-    <Compile Include="Sorting\CountingSort.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sorting\HeapSort.cs" />
-    <Compile Include="Sorting\InsertionSort.cs" />
-    <Compile Include="Sorting\MergeSort.cs" />
-    <Compile Include="Sorting\QuickSort.cs" />
-    <Compile Include="Sorting\RapidSort.cs" />
-    <Compile Include="Sorting\SelectionSort.cs" />
-    <Compile Include="SubstringSearch\RabinKarpAlgorithm.cs" />
     <Compile Include="Utils.cs" />
   </ItemGroup>
   <ItemGroup>
