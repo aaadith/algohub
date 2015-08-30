@@ -32,7 +32,7 @@ namespace CommonProblems
 
         public static void Main()
         {
-            Console.WriteLine(NewtonsMethod1(3));
+            Console.WriteLine(NewtonsMethod(3));
         }
     }
 }
