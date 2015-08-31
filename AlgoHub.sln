@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgramming", "DynamicProgramming\DynamicProgramming.csproj", "{1C0EB908-CAEB-4F54-8EF8-C21994434BAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackTracking", "BackTracking\BackTracking.csproj", "{29C10789-B6DB-493F-9939-341B7E3B38BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,16 @@ Global
 		{1C0EB908-CAEB-4F54-8EF8-C21994434BAF}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{1C0EB908-CAEB-4F54-8EF8-C21994434BAF}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{1C0EB908-CAEB-4F54-8EF8-C21994434BAF}.Release|x86.ActiveCfg = Release|Any CPU
+		{29C10789-B6DB-493F-9939-341B7E3B38BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C10789-B6DB-493F-9939-341B7E3B38BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C10789-B6DB-493F-9939-341B7E3B38BE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{29C10789-B6DB-493F-9939-341B7E3B38BE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{29C10789-B6DB-493F-9939-341B7E3B38BE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{29C10789-B6DB-493F-9939-341B7E3B38BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C10789-B6DB-493F-9939-341B7E3B38BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29C10789-B6DB-493F-9939-341B7E3B38BE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{29C10789-B6DB-493F-9939-341B7E3B38BE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{29C10789-B6DB-493F-9939-341B7E3B38BE}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
