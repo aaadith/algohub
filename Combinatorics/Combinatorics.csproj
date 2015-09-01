@@ -40,7 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PermutationsGenerator.cs" />
-    <Compile Include="PowerSetGenerator.cs" />
+    <Compile Include="SubSetGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
