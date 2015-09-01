@@ -29,11 +29,14 @@ namespace Utils
             return s.ToString();
         }
 
-        public static void Swap(int[] a, int x, int y)
+        /*
+         * Swaps elements at positions x and y of the given array a of type T
+         */
+        public static void Swap<T>(T[] a, int x, int y)
         {
-            int t=a[x];
+            T tmp=a[x];
             a[x] = a[y];
-            a[y] = t;
+            a[y] = tmp;
         }
     }
 }
