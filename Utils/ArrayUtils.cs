@@ -34,6 +34,9 @@ namespace Utils
          */
         public static void Swap<T>(T[] a, int x, int y)
         {
+            if (x == y)
+                return;
+
             T tmp=a[x];
             a[x] = a[y];
             a[y] = tmp;
