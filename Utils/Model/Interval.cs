@@ -12,7 +12,7 @@ namespace Utils.Model
         Closed // Boundary point included in interval
     }
 
-    public class Interval<T> where T : IComparable
+    public class Interval<T> : IComparable<Interval<T>> where T : IComparable
     {
         public T Start { get; set; }
 
@@ -33,6 +33,8 @@ namespace Utils.Model
             this.EndType = EndType;
 
         }
+
+        
 
         public bool Contains(T Point)
         {
@@ -99,6 +101,11 @@ namespace Utils.Model
             }
 
             return false;
+        }
+
+        public int CompareTo(Interval<T> other)
+        {
+            return this.End.CompareTo(other.End);
         }
     }
 
