@@ -44,20 +44,13 @@ namespace Utils
             a[y] = tmp;
         }
 
-        public static int GetMedian(int[] a) 
+        public static T GetMedian<T>(T[] a, bool sorted=false) 
         {
-            int median;
-            if(a.Length%2==1)
-            {
-                int medianPosition = a.Length / 2;
-                median = a[medianPosition];
-            }
-            else
-            {
-                int median1 = a[a.Length / 2];
-                int median2 = a[a.Length / 2 - 1];
-                median = (median1 + median2) / 2;
-            }
+            if(!sorted)
+                Array.Sort(a);
+
+            int medianPosition = a.Length / 2;
+            T median = a[medianPosition];            
             return median;
         }
 
