@@ -7,14 +7,16 @@ namespace Utils
 {
     public static class ArrayUtils
     {
-        public static void Print(int[] a)
+        public static string ToString<T>(T[] a)
         {
-            Console.WriteLine();
-            foreach (int val in a)
-            {
-                Console.Write(val+" ");
-            }
-            Console.WriteLine();
+            StringBuilder s = new StringBuilder();
+            s.Append("{ ");
+            s.Append(string.Join(" , ", a));
+            s.Append(" }");
+
+            string str = s.ToString();
+            return str;
+        
         }
 
         public static string ToString1(this int[] a)
@@ -41,5 +43,24 @@ namespace Utils
             a[x] = a[y];
             a[y] = tmp;
         }
+
+        public static int GetMedian(int[] a) 
+        {
+            int median;
+            if(a.Length%2==1)
+            {
+                int medianPosition = a.Length / 2;
+                median = a[medianPosition];
+            }
+            else
+            {
+                int median1 = a[a.Length / 2];
+                int median2 = a[a.Length / 2 - 1];
+                median = (median1 + median2) / 2;
+            }
+            return median;
+        }
+
+         
     }
 }
