@@ -19,17 +19,6 @@ namespace Utils
         
         }
 
-        public static string ToString1(this int[] a)
-        {
-            StringBuilder s = new StringBuilder();
-
-            foreach (int val in a)
-            {
-                s.Append(val + " ");
-            }
-
-            return s.ToString();
-        }
 
         /*
          * Swaps elements at positions x and y of the given array a of type T
