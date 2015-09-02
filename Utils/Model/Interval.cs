@@ -107,6 +107,11 @@ namespace Utils.Model
         {
             return this.End.CompareTo(other.End);
         }
+
+        public override string ToString()
+        {
+            return string.Format("{0}{1}, {2}{3}", StartType == IntervalBoundaryType.Open ? '(' : '[', Start, End, (EndType == IntervalBoundaryType.Open) ? ')' : ']');
+        }
     }
 
 }
