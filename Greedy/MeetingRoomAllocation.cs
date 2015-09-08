@@ -50,8 +50,8 @@ namespace Greedy
                 }               
             }
 
-            if(meetings.Count>0)
-                throw new Exception("all meetings could not be allocated to meeting rooms")
+            if (meetings.Count > 0)
+                throw new Exception("all meetings could not be allocated to meeting rooms");
         }
     }
 
