@@ -8,8 +8,8 @@
     <ProjectGuid>{562A8A87-B639-482C-841F-F306AE4C82AB}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Algorithms</RootNamespace>
-    <AssemblyName>Algorithms</AssemblyName>
+    <RootNamespace>AlgoHubLab</RootNamespace>
+    <AssemblyName>AlgoHubLab</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
@@ -50,10 +50,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Combinatorics\Combinatorics.csproj">
-      <Project>{9eea45d1-bffc-4a7d-8be7-ceff64472964}</Project>
-      <Name>Combinatorics</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Utils\Utils.csproj">
       <Project>{06a4df62-7b3b-47d8-9e62-188ee4c35a0a}</Project>
       <Name>Utils</Name>
