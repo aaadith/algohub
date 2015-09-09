@@ -47,7 +47,7 @@ namespace DataStructures
                 T current = list[position];
                 T parent = list[parentPosition];
 
-                if (Compare(current, parent) < 0)
+                if (Compare(current, parent) > 0)
                 {
                     ArrayUtils.Swap<T>(list, position, parentPosition);
                     position = parentPosition;
@@ -72,7 +72,7 @@ namespace DataStructures
 
                 if (child2Position >= count)
                 {
-                    if (Compare(current, child1) < 0)
+                    if (Compare(current, child1) > 0)
                     {
                         ArrayUtils.Swap<T>(list, position, child1Position);
                         position = child1Position;
@@ -82,9 +82,9 @@ namespace DataStructures
                 {
                     T child2 = list[child2Position];
 
-                    if (Compare(child1, child2) < 0)
+                    if (Compare(child1, child2) > 0)
                     {
-                        if (Compare(current, child1) < 0)
+                        if (Compare(current, child1) > 0)
                         {
                             ArrayUtils.Swap<T>(list, position, child1Position);
                             position = child1Position;
@@ -92,7 +92,7 @@ namespace DataStructures
                     }
                     else
                     {
-                        if (Compare(current, child2) < 0)
+                        if (Compare(current, child2) > 0)
                         {
                             ArrayUtils.Swap<T>(list, position, child2Position);
                             position = child2Position;
