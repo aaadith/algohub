@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Utils;
 
+
 namespace DataStructures
 {
     public class Heap<T>
@@ -64,12 +65,12 @@ namespace DataStructures
                 int child1Position = (position + 1) * 2 - 1;
                 int child2Position = child1Position + 1;
 
-                if (child1Position >= list.Length)
+                if (child1Position >= count)
                     break;
 
                 T child1 = list[child1Position];
 
-                if (child2Position >= list.Length)
+                if (child2Position >= count)
                 {
                     if (Compare(current, child1) < 0)
                     {
