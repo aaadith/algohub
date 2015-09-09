@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BTree\SimpleBTreeClient.cs" />
+    <Compile Include="Heap.cs" />
     <Compile Include="Interval.cs" />
     <Compile Include="IntervalTree.cs" />
     <Compile Include="Program.cs" />
