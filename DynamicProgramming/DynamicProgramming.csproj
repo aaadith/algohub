@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MaxPointsForTaskCompletion.cs" />
     <Compile Include="MaxCharsWithGivenKeyStrokes.cs" />
     <Compile Include="MaxSumSubsequenceWithNonContiguousElements.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
