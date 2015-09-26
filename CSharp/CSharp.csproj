@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="Linq.cs" />
     <Compile Include="ListInCollection.cs" />
+    <Compile Include="Params.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
