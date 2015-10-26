@@ -19,6 +19,23 @@ namespace Utils
         
         }
 
+        public static string ToString<T>(T[,] a)
+        {
+            int rows = a.GetLength(0), cols = a.GetLength(1);
+
+            StringBuilder s = new StringBuilder();
+
+            for (int i = 0; i < rows; i++)
+            {
+                for (int j = 0; j < cols; j++)
+                {
+                    s.Append(a[i, j]);
+                    s.Append('\t');
+                }
+                s.Append('\n');
+            }
+            return s.ToString();
+        }
 
         /*
          * Swaps elements at positions x and y of the given array a of type T
